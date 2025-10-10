@@ -41,11 +41,26 @@ address {
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: bisque;
+    width: 500px;
+    /* border: 40px dotted red; */ /*solid , dashed, dotted */
+    /*padding: 60px;*/
+    /* padding: 60px 20px; */
+    /* padding: 60px 20px 30px; */
+    /* padding: 60px 20px 30px 15px; */
+    padding-top: 50px;
+    margin-bottom: 100px;
+ 
+}
+.container p {
+    background: yellow;
 }
 .container h3 {
     font-size: 2rem;
     font-weight: normal;
     font-family: 'verdana';
+    padding-bottom: 40px;
+    background: red;
 }
 .container h4 {
     font-family: 'extraSquare';
