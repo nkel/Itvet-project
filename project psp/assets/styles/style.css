@@ -1,7 +1,6 @@
 .container {
-    width: 1750px;
-
-    margin:auto
+    max-width: 1750px;
+    margin:auto;
 }
 .main-header {
     border-bottom: 2px solid yellow;
@@ -71,4 +70,54 @@
 } 
 .header_buttons-item2 svg { 
     margin-right: 10px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.banner_item {
+ 
+    display: flex;
+    border-radius: 10px;
+    width: 32%;
+    margin-bottom: 20px;
+   
+}
+
+.banner_item h2 a {
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+.banner_item h2 {
+    font-size: 24px;
+    width: 100%;    
+}
+
+.banner_item.green {
+    background-color: green;
+    background-image: url("../images/family.png");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    background-size: 80px;
+}
+.banner_item.aqua {
+    background-color: aqua;
+}
+.banner_item.red {
+    background-color: red;
+}
+.banner_item.yellow {
+    background-color: yellow;
+}
+.banner_item.maroon {
+    background-color: maroon;
+}
+.banner_item.gray {
+    background-color: gray;
 }
